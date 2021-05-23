@@ -4,7 +4,7 @@ tar -xf MLNX...
 cd MLNX...
 sudo ./mlnxofedinstall --vma
 sudo /etc/init.d/openibd restart
-# 此时 libvma.so* 已被安装在 /usr/lib 中， 但这不是我们要用的
+# 此时 libvma.so* 已被自动安装在 /usr/lib 中， 但这不是我们要用的。我们需要用的库是build from source
 
 
 Prerequisites:
