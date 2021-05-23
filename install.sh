@@ -19,5 +19,5 @@ make
 You can find libvma.so in path_to_vma_source_dir/src/vma/.libs/libvma.so
 
 3)usage
-export LD_PRELOAD=path_to_libvma.so
+export LD_PRELOAD=/home/duanqingyang/libvma/src/vma/.libs/libvma.so
 iperf .....
