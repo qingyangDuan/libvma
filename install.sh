@@ -11,7 +11,8 @@ sudo /etc/init.d/openibd restart
 2)build libvma
 git clone https://github.com/Mellanox/libvma
 cd libvma
-sudo apt-get install -y libnl-3-dev
+sudo apt install -y libnl-3-dev
+sudo apt install -y libnl-route-3-dev
 ./autogen.sh
 ./configure --with-ofed=/usr --prefix=/usr --libdir=/usr/lib64 --includedir=/usr/include --docdir=/usr/share/doc/libvma --sysconfdir=/etc
 make
