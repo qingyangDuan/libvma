@@ -12,7 +12,9 @@ Prerequisites:
 sudo apt install -y libnl-3-dev
 sudo apt install -y libnl-route-3-dev
 sudo vim /etc/security/limits.conf
-#add line :   duanqingyang hard memlock unlimited
+#add line :  
+#  * soft memlock unlimited
+#  * hard memlock unlimited
 relink ths ssh shell
 #then use " ulimit -a " to check if it works
 
